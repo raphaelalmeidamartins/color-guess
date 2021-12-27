@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap') ;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap') ;
+
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@300&display=swap') ;
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Open Sans, sans-serif;
+  background-color: rgb(0, 24, 72);
+}
+
+header {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  padding: 15px 0;
+}
+
+#title {
+  font-family: Monoton, cursive;
+  font-size: 70px;
+  color: rgb(144, 96, 144);
+}
+
+#rgb-color {
+  font-size: 40px;
+  color: white;
+}
+
+main {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  padding: 40px;
+  text-align: center;
+}
+
+#balls {
+  width: fit-content;
+  height: fit-content;
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 20px rgb(30, 13, 63);
+}
+
+#answer {
+  margin: 20px 0 0;
+  font-size: 18px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 12px;
+  margin: 20px 0 0;
+  border-radius: 30px;
+  background-color: orange;
+  color: white;
+}
+
+button:hover {
+  background-color: orangered;
+}
+
+#score-paragraph {
+  font-size: 40px;
+  font-family: Turret Road, cursive;
+  padding: 20px;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+}
+
+footer p {
+  width: 900px;
+  margin: 0 auto;
+  color: rgb(144, 96, 144);
+}
+
+footer a {
+  color: rgb(180, 146, 180);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.ball {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin: 4px;
+}
+
+.ball:hover {
+  width: 74px;
+  height: 74px;
+  border: 3px solid black;
+}
