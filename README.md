@@ -11,6 +11,13 @@
 ![Minha nota no projeto - My grade of the project](./nota.png)
 
 ### Requisitos
+<ol>
+  <li>Adicione no seu site um título com o nome do seu jogo
+    <ul>
+      <li>Será verificado se o id do título é <code>title</code>.</li>
+    </ul>
+  </li>
+</ol>
 <p>(Em construção)</p>
 
 ### Bônus
