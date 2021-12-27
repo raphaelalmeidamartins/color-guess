@@ -25,17 +25,17 @@
   </li>
   <li>Adicione à página opções de cores para serem adivinhadas
     <ul>
-      <li>Será verificado que deve conter 6 circulos como opção de cor de adivinhação;</li>
-      <li>Será verificado que a <code>class</code> de todos os circulos deve ser <code>ball</code>.</li>
+      <li>Será verificado que deve conter 6  como opção de cor de adivinhação;</li>
+      <li>Será verificado que a <code>class</code> de todos os círculos deve ser <code>ball</code>.</li>
     </ul>
   </li>
-  <li>Adicione cores nas bolas, elas devem ser geradas dinâmicamente com JavaScript</li>
-  <li>Clicar em um circulo colorido, deve ser mostrado um texto indicando se está correto
+  <li>Adicione cores nas bolas, elas devem ser geradas dinamicamente com JavaScript</li>
+  <li>Clicar em um círculo colorido, deve ser mostrado um texto indicando se está correto
     <ul>
       <li>Será verificado que o <code>id</code> do elemento deve ser <code>answer</code>;</li>
       <li>Será verificado que quando o jogo é iniciado, o texto exibido deve ser <em>"Escolha uma cor"</em>;</li>
-      <li>Será verificado se o circulo colorido for o correto, deve ser exibido o texto <em>"Acertou!"</em>;</li>
-      <li>Será verificado se o circulo colorido for o incorreto, deve ser exibido o texto <em>"Errou! Tente novamente!"</em>.</li>
+      <li>Será verificado se o círculo colorido for o correto, deve ser exibido o texto <em>"Acertou!"</em>;</li>
+      <li>Será verificado se o círculo colorido for o incorreto, deve ser exibido o texto <em>"Errou! Tente novamente!"</em>.</li>
     </ul>
   </li>
   <li>Crie um botão para iniciar/reiniciar o jogo
