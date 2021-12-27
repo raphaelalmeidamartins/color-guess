@@ -17,11 +17,45 @@
       <li>Será verificado se o id do título é <code>title</code>.</li>
     </ul>
   </li>
+  <li>Adicione um texto com o código RGB a ser adivinhado
+    <ul>
+      <li>Será verificado se o seu <code>id</code> é <code>rgb-color</code>;</li>
+      <li>Será verificado se o texto deve conter os três números das cores RGB a ser adivinhada, no seguinte formato: (168, 34, 1).</li>
+    </ul>
+  </li>
+  <li>Adicione à página opções de cores para serem adivinhadas
+    <ul>
+      <li>Será verificado que deve conter 6 circulos como opção de cor de adivinhação;</li>
+      <li>Será verificado que a <code>class</code> de todos os circulos deve ser <code>ball</code>.</li>
+    </ul>
+  </li>
+  <li>Adicione cores nas bolas, elas devem ser geradas dinâmicamente com JavaScript</li>
+  <li>Clicar em um circulo colorido, deve ser mostrado um texto indicando se está correto
+    <ul>
+      <li>Será verificado que o <code>id</code> do elemento deve ser <code>answer</code>;</li>
+      <li>Será verificado que quando o jogo é iniciado, o texto exibido deve ser <em>"Escolha uma cor"</em>;</li>
+      <li>Será verificado se o circulo colorido for o correto, deve ser exibido o texto <em>"Acertou!"</em>;</li>
+      <li>Será verificado se o circulo colorido for o incorreto, deve ser exibido o texto <em>"Errou! Tente novamente!"</em>.</li>
+    </ul>
+  </li>
+  <li>Crie um botão para iniciar/reiniciar o jogo
+    <li>Será verificado que o botão deve ter o <code>id="reset-game"</code>;</li>
+    <li>Será verificado que ao clicar no botão, novas cores devem ser geradas via JavaScript e o elemento <code>rgb-color</code> deve ser atualizado;</li>
+    <li>Será verificado que ao clicar no botão, o elemento <code>answer</code> deve voltar ao estado inicial, exibindo o texto <em>"Escolha uma cor"</em>.</li>
+  </li>
 </ol>
-<p>(Em construção)</p>
 
 ### Bônus
-<p>(Em construção)</p>
+<ol start="7">
+  <li>Crie um placar que incremente 3 pontos para cada acerto no jogo
+    <ul>
+      <li>Será verificado que o elemento deve ter o <code>id="score"</code>;</li>
+      <li>Será verificado que o valor inicial dele deve ser 0;</li>
+      <li>Será verificado que a cada acerto, é incrementado 3 pontos ao placar;</li>
+      <li>Será verificado que ao clicar no botão reiniciar, o placar <strong>NÃO</strong> deve ser resetado.</li>
+    </ul>
+  </li>
+</ol>
 <br>
 
 <h2 id="en">:us: English</h2>
