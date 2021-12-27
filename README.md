@@ -104,10 +104,10 @@
 <ol start="7">
   <li>Add a scoreboard that increase 3 scores each time the user clicks in the right color
     <ul>
-      <li>It should be indentified with <code>id="score"</code>;</li>
+      <li>It should be identified with <code>id="score"</code>;</li>
       <li>Its initial value should be 0;</li>
       <li>Every hit, the scoreboard should increase 3 scores;</li>
-      <li>When the user clicks in the button to resert the game, the scoreboard <strong>SHOULD NOT</strong> be reset.</li>
+      <li>When the user clicks in the button to restart the game, the scoreboard <strong>SHOULD NOT</strong> be reset.</li>
     </ul>
   </li>
 </ol>
