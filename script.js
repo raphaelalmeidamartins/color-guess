@@ -8,7 +8,7 @@ let score = 0;
 scoreElement.innerHTML = `${score}`;
 
 function generateRandomNumber() {
-  return Math.floor(Math.random() * 255);
+  return Math.floor(Math.random() * 256);
 }
 
 function generateRandomColor() {
@@ -27,7 +27,7 @@ function generateDifferentColor() {
 }
 
 function fillBalls() {
-  const rightBall = Math.floor(Math.random() * 5);
+  const rightBall = Math.floor(Math.random() * 6);
   for (let i = 0; i < arrayBalls.length; i += 1) {
     if (i === rightBall) {
       arrayBalls[i].style.backgroundColor = colorToGuess.innerHTML.toLowerCase();
