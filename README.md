@@ -4,7 +4,7 @@
 
 # Color Guess
 <h2>:brazil: Português</h2>
-<p id="pt">Projeto de HTML, CSS e JavaScript desenvolvido por mim (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) ao final do Bloco 5 do Módulo 1 do curso de Desenvolvimento Web da <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. Obtive aprovação com 100% dos requisitos obrigatórios e opcionais atingidos, e seguindo as todas as regras de padronização do código e boas práticas do Linter.</p>
+<p id="pt">Projeto de HTML, CSS e JavaScript desenvolvido por mim (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) ao final do Bloco 5 do Módulo 1 do curso de Desenvolvimento Web da <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. Obtive aprovação com 100% dos requisitos obrigatórios e opcionais atingidos.</p>
 <p>O projeto consistiu no desenvolvimento de jogo de adivinhação de cores. A pessoa usuária precisa adivinhar qual das cores de uma paleta gerada aleatoriamente corresponde a um valor RGB exibido na tela. Caso ela acerte, ganha 3 pontos que vão se acumulando a cada acerto.</p>
 <p><a href="https://raphaelalmeidamartins.github.io/project-color-guess/" target="_blank">Clique aqui</a> para conferir o resultado do projeto no navegador.</p>
 
@@ -59,8 +59,8 @@
 <br>
 
 <h2 id="en">:us: English</h2>
-<p>Project of HTML, CSS and JavaScript develop by me (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) in the end of the Unit 5 Module 1 of the Web Development course at <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. I was approved with 100% of the mandatory and optional requirements met, and following all the Linter rules of best practices and code standardization.</p>
-<p>We had to develop a color guess game. The user needs to guess which color from a randomly generated palette corresponds to the RGB value displayed on the screen. If they get it right, they earn 3 scores. The scores accumulate in every hit.</p>
+<p>Project of HTML, CSS, and JavaScript developed by me (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) at the end of the Unit 5 Module 1 of the Web Development course at <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. I was approved with 100% of the mandatory and optional requirements met.</p>
+<p>We had to develop a color guess game. The user needs to guess which color from a randomly generated palette corresponds to the RGB value displayed on the screen. If they get it right, they earn 3 points. The points accumulate in every hit.</p>
 <p><a href="https://raphaelalmeidamartins.github.io/project-color-guess/" target="_blank">Click here</a> to check out the final version of the project on your browser.</p>
 
 ![My grade of the project - Minha nota no projeto](./nota.png)
@@ -95,19 +95,19 @@
   </li>
   <li>Create a button to start/restart the game
     <li>It should be identified with <code>id="reset-game"</code>;</li>
-    <li>When the user clicks in the button, the circles should be filled with different randomly generated colors again and the element <code>rgb-color</code> should also be updated;</li>
-    <li>When the user clicks in the button, the displayed message should return to the default <em>"Escolha uma cor"</em> (<em>"Choose a color"</em>).</li>
+    <li>When the user clicks on the button, the circles should be filled with different randomly generated colors again and the element <code>rgb-color</code> should also be updated;</li>
+    <li>When the user clicks on the button, the displayed message should return to the default <em>"Escolha uma cor"</em> (<em>"Choose a color"</em>).</li>
   </li>
 </ol>
 
 ### Bonus
 <ol start="7">
-  <li>Add a scoreboard that increase 3 points each time the user clicks in the right color
+  <li>Add a scoreboard that increase 3 points each time the user clicks on the right color
     <ul>
       <li>It should be identified with <code>id="score"</code>;</li>
       <li>Its initial value should be 0;</li>
       <li>Every hit, the scoreboard should increase 3 points;</li>
-      <li>When the user clicks in the button to restart the game, the scoreboard <strong>SHOULD NOT</strong> be reset.</li>
+      <li>When the user clicks on the button to restart the game, the scoreboard <strong>SHOULD NOT</strong> be reset.</li>
     </ul>
   </li>
 </ol>
