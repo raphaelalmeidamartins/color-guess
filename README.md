@@ -85,29 +85,29 @@
     </ul>
   </li>
   <li>Fill the circles with randomly generated colors using JavaScript</li>
-  <li>When one of the color circles is clicked in, it should be displayed a message saying if it's the right color or not
+  <li>When one of the color circles is clicked, it should be displayed a message saying if it's the right color or not
     <ul>
       <li>The message element should have the <code>id</code> named <code>answer</code>;</li>
       <li>When the game starts, the displayed message should be <em>"Escolha uma cor"</em> (<em>"Choose a color"</em>);</li>
-      <li>If the circle corresponding to the right color is clicked in, the displayed message should be <em>"Acertou!"</em> (<em>"That's right!"</em>);</li>
-      <li>If the circle that was clicked in isn't the right color, the displayed message should be <em>"Errou! Tente novamente!"</em> (<em>"Wrong color! Try again!"</em>).</li>
+      <li>If the circle corresponding to the right color is clicked, the displayed message should be <em>"Acertou!"</em> (<em>"That's right!"</em>);</li>
+      <li>If the circle that was clicked isn't the right color, the displayed message should be <em>"Errou! Tente novamente!"</em> (<em>"Wrong color! Try again!"</em>).</li>
     </ul>
   </li>
   <li>Create a button to start/restart the game
     <li>It should be identified with <code>id="reset-game"</code>;</li>
-    <li>When the user clicks on the button, the circles should be filled with different randomly generated colors again and the element <code>rgb-color</code> should also be updated;</li>
-    <li>When the user clicks on the button, the displayed message should return to the default <em>"Escolha uma cor"</em> (<em>"Choose a color"</em>).</li>
+    <li>When the user clicks the button, the circles should be filled with different randomly generated colors again and the element <code>rgb-color</code> should also be updated;</li>
+    <li>When the user clicks the button, the displayed message should return to the default <em>"Escolha uma cor"</em> (<em>"Choose a color"</em>).</li>
   </li>
 </ol>
 
 ### Bonus
 <ol start="7">
-  <li>Add a scoreboard that increase 3 points each time the user clicks on the right color
+  <li>Add a scoreboard that increase 3 points each time the user clicks the right color
     <ul>
       <li>It should be identified with <code>id="score"</code>;</li>
       <li>Its initial value should be 0;</li>
       <li>Every hit, the scoreboard should increase 3 points;</li>
-      <li>When the user clicks on the button to restart the game, the scoreboard <strong>SHOULD NOT</strong> be reset.</li>
+      <li>When the user clicks the button to restart the game, the scoreboard <strong>SHOULD NOT</strong> be reset.</li>
     </ul>
   </li>
 </ol>
