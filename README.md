@@ -1,4 +1,4 @@
-# :art: Color Guess :art:
+# :art: Color Guess Game :art:
 
 ![Prévia da página - Preview of the page](./preview.gif)
 
@@ -9,6 +9,12 @@ Project of HTML, CSS, and JavaScript developed by me ([Raphael Martins](https://
 We had to develop a color guess game. The user needs to guess which color from a randomly generated palette corresponds to the RGB value displayed on the screen. If they get it right, they earn 3 points. The points accumulate in every hit.
 
 [Click here](https://raphaelalmeidamartins.github.io/color-guess/) to check out the final version of the project on your browser.
+
+## :hammer_and_wrench: Tools
+
+* HTML5
+* CSS3
+* JavaScript ES6+
 
 ## Grade
 
