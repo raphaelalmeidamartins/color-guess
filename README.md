@@ -16,10 +16,10 @@ We had to develop a color guess game. The user needs to guess which color from a
 * CSS3
 * JavaScript ES6+
 
-## Grade
+## :trophy: Grade
 
 ![My grade of the project - Minha nota no projeto](./nota.png)
 
-### Copyright disclaimer
+### :copyright: Copyright disclaimer
 
 I developed this project for learning purposes, all the code and documentation texts in Portuguese and English are my authorship, and the rights belong exclusively to me. It is allowed to download or clone the repository for study purposes. However, it is not allowed to publish full or partial copies. This disclaimer does not cover libraries and dependencies, which are subject to their respective licenses.
