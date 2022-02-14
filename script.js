@@ -39,14 +39,14 @@ function fillBalls() {
 
 function chooseColor(event) {
   const selectedBall = event.target;
-  if (wonOrLostMessage.innerHTML === 'Acertou!') {
-    alert('Troque as cores!');
+  if (wonOrLostMessage.innerHTML === 'That\'s right!') {
+    alert('Change the colors!');
   } else if (selectedBall.style.backgroundColor === colorToGuess.innerHTML.toLowerCase()) {
-    wonOrLostMessage.innerHTML = 'Acertou!';
+    wonOrLostMessage.innerHTML = 'That\'s right!';
     score += 3;
     scoreElement.innerHTML = `${score}`;
   } else {
-    wonOrLostMessage.innerHTML = 'Errou! Tente novamente!';
+    wonOrLostMessage.innerHTML = 'Wrong! Try again!';
   }
 }
 
@@ -60,7 +60,7 @@ function onLoadPage() {
   colorToGuess.innerHTML = generateRandomColor().toUpperCase();
   addEventListenerToBalls();
   fillBalls();
-  wonOrLostMessage.innerHTML = 'Escolha uma cor';
+  wonOrLostMessage.innerHTML = 'Pick the right color';
 }
 
 resetColorsButton.addEventListener('click', onLoadPage);
