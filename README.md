@@ -10,6 +10,11 @@ We had to develop a color guess game. The user needs to guess which color from a
 
 [Click here](https://raphaelalmeidamartins.github.io/color-guess/) to check out the final version of the project on your browser.
 
+## :man_technologist: Developed Skills
+
+* Use the DOM API to access HTML elements
+* React to user interations by using event listeners
+
 ## :hammer_and_wrench: Tools
 
 * HTML5
